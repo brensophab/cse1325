@@ -6,18 +6,26 @@ public class Polygon(){
 	
 	public double addSide(double length)//while getsides iterates, increment value(size) by one
 	{
-	
-	getSides();
+	double sum = 0;
+	for(int i=0 i <side.length;i++)
+	{
+	sum +=getSides();
+	}
 	}
 	public getSides()
 	{
-		do //iterates once and then passes value of length into getSides(i hope)
-		{
+		 //iterates once and then passes value of length into getSides(i hope)
+		
 		Scanner in = new Scanner(System.in);
 		length = in.nextInt();
 		System.out.println("Side length(0 when done):");
+		if(input==0)
+		{
+		break;
+		}
 		return length;	
-		}while(input!=0);
+		
+		
 	
 	}
 	public getPerimeter()
