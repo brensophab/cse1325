@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*
+import java.util.*;
 import java.text.Normalizer;
 
 public class Quint{
@@ -26,4 +26,18 @@ public class Quint{
 	System.out.println("Hello world!");
 	}
 	}
+	
+	
+class Puzzle{
+private Word solution;
+private boolean solved;
 
+}
+
+class WordList{
+
+}
+
+class Word{
+
+}
