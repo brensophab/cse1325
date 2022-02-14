@@ -3,35 +3,44 @@ import java.security.MessageDigest;
 
 public class Crypto {
     public static void main(String[] args){
-       // main code goes here System.out.println("Hello world!");
+        // Method that prints out a key generated from key method
+       System.out.println("Enter text to (E)ncrypt or (D)ecrypt. (Q) to quit \n");
+    
+           Scanner in = new Scanner(System.in);
+           char response = in.nextLine().toLowerCase();
+           if(response = 'D'  ){
+               System.out.println("Enter text to decrypt");
+               Scanner textToDecrypt = new Scanner(System.in);
+               String decryptText = in.nextLine();
+               decryptText.decrypt();
+           } // Print out the decrypted text in decrypt method.
+           else if(response = 'E'){
+               System.out.println("Enter text to encrypt");
+               Scanner textToEncrypt = new Scanner(System.in);
+               String encryptText = in.nextline();
+               encryptText.encrypt();
+               //Print out the encrypted text in encrypt method
+           }
+    
 
     }
     public Rot13(){
-        //3 lines rot13 encryption algo
+        //3 lines rot13 encryption algo 
+        return;
     }
-    
-    class Substitution (){ //extend the Cypher interface here i think
-        char encryptKey = new char[26];
-        char decryptKey = new char[26];
-
-        public Substitution(String key){
-
-        }
-
-        public encrypt Cypher(String unencrypted){
-
-        }
-        
-        public decrypt Cypher(String encrypted){
-
-        }
-
-    }
-
-
-    interface Cypher{
+    public interface cypher{
         public String encrypt(String unencrypted);
         public String decrypt(String encrypted);
-    }  
-}
+        public Substitution();
+    }
+    
+    
+
+        public Substitution(String key){
+            return;
+        }
+
+    }
+
+
 // Git didnt add every line?
