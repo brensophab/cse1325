@@ -1,4 +1,4 @@
-package shelter;
+import shelter.*;
 
 
 public class mass {
