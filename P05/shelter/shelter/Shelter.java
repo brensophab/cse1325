@@ -1,8 +1,7 @@
 package shelter;
 import java.util.ArrayList;
 import java.util.List;
-
-import shelter.Animal.DogBreed;
+import java.io.*;
 
 
 
@@ -14,7 +13,7 @@ public class Shelter {
     
 
     public void addAnimal(Animal animal){
-        animalList.add(DogBreed.SHIBA);
+        animalList.add();
     }
     
     @Override

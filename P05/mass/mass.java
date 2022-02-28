@@ -1,4 +1,5 @@
-import shelter.*;
+import shelter.Cat;
+import shelter.Dog;
 
 
 public class mass {

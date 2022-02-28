@@ -1,28 +1,28 @@
+package shelter;
+
 import java.util.*;
 
  
-abstract class Animal{
+public abstract class Animal{
     enum Gender{
         Male, Female;
     }
     
-    enum DogBreed{
-        
-        POODLE,SHIBA,HUSKY;   
-    }
     
-    enum CatBreed{
-        BENGAL,SIAMESE,MUNCHKIN;
-    }
+    
+    
     
 
-    public Object animal(String name, Gender gender, int age){
-        return null; 
+    public String animal(String name, String gender, int age){
+    this.name = name;
+    this.gender = gender;
+    this.age = age;
+    return name + ", "+ gender + ", " + age + "years old";
     }
 
     public abstract String breed();
-    private String name;
-    private Gender gender;
-    private int age;
+    protected String name;
+    protected String gender;
+    protected int age;
     
 }
