@@ -19,7 +19,7 @@ int main() {
     std::cout << limegreen.colorize("Green") << ' ' << violetish.colorize("Stan Red Velvet") << ' ' << brightpink.colorize("Pink") << "\n\n";
 
     int red, green, blue;
-    std::cout << "Enter red, green, and blue ints:   "; 
+    std::cout << "RGB values(R + G + B)  "; 
     std::cin >> red >> green >> blue;
     Color color{red, green, blue};
     std::cout << color.colorize(color.to_string()) << std::endl;
