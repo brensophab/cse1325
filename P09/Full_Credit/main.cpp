@@ -1,13 +1,22 @@
 #include "color.h"
 #include <iostream>
+#include<string>
+
+Color::Color(int red, int green, int blue): _red{red}, _green{green}, _blue{blue} {}
+    std::string Color::to_string(){
+        return "(" + std::to_string(_red) + "," + std::to_string(_green) + "," + std::to_string(_blue) + ")";
+    }
+
+std::string Color::colorize(std::string text){
+    return "\033[38;2;" + std::to_string(_red) + ";" + std::to_string(_green) + ";" + std::to_string(_blue) + 'm' + text + "\033[0m";
+
+}
 
 int main() {
-    Color uta_blue{0,100,177};
-    Color uta_orange{245,128,38};
-    Color maroon{93,23,37};
-    std::cout << uta_blue.colorize("UTA Blue") << ' '
-              << uta_orange.colorize("UTA Orange") << ' '
-              << maroon.colorize("Maroon") << "\n\n";
+    Color limegreen{137,235,52};
+    Color violetish{235,52,52};
+    Color brightpink{235,52,125};
+    std::cout << limegreen.colorize("Green") << ' ' << violetish.colorize("Stan Red Velvet") << ' ' << brightpink.colorize("Pink") << "\n\n";
 
     int red, green, blue;
     std::cout << "Enter red, green, and blue ints:   "; 
