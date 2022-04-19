@@ -1,3 +1,4 @@
+package P07.mass;
 
  // NOTE: Code adapted from sprint 2 in order to facilitate smooth Workflow on P07.//
 public class mass {

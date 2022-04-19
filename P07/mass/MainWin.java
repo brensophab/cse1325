@@ -18,6 +18,9 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
+
+import P07.shelter.Shelter;
+
 import javax.swing.JLabel;
 
 import java.awt.image.BufferedImage;
@@ -37,14 +40,6 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import shelter.Shelter;
-import shelter.Animal;
-import shelter.Dog;
-import shelter.DogBreed;
-import shelter.Cat;
-import shelter.CatBreed;
-import shelter.Gender;
-
 public class MainWin extends JFrame {// implements ActionListener {
     public MainWin(String title) {
         super(title);
@@ -59,7 +54,7 @@ public class MainWin extends JFrame {// implements ActionListener {
         
         JMenu     file       = new JMenu("File");
         JMenuItem Open       = new JMenuItem("Open Shelter");
-        JMenuItem Shelter    = new JMenuItem("New Shelter");
+        Shelter Shelter    = new JMenuItem("New Shelter");
         JMenuItem Save       = new JMenuItem("Save");
         JMenuItem SaveAs     = new JMenuItem("Save As");
         JMenuItem quit       = new JMenuItem("Quit");
@@ -146,7 +141,7 @@ public class MainWin extends JFrame {// implements ActionListener {
         // Make everything in the JFrame visible
         setVisible(true);
         
-        shelter = new Shelter("UTA Animal Friends");
+        Shelter = new Shelter("UTA Animal Friends");
     }
     protected void onSaveAsClick() {
         final JFileChooser fc = new JFileChooser(filename);

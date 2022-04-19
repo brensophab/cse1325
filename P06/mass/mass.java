@@ -1,3 +1,5 @@
+package P06.mass;
+
 
 
 public class mass {
