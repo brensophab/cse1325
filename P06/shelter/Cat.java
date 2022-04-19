@@ -1,36 +1,36 @@
 package shelter;
 
-
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
 public class Cat extends Animal {
-    
-    
-
-
-    public Cat(CatBreed breed, String name, Gender gender,int age){
+    public static final String catID = "Cat";
+    public Cat(CatBreed breed, String name, Gender gender, int age){
         super(name, gender, age);
         this.breed = breed;
-        if(age<0){
-            throw new IllegalArgumentException("No negative age");
-        }
-    }
-    
 
+    }
+    public Cat(BufferedReader in) throws IOException {
+        super(in);
+        this.breed = CatBreed.valueOf(in.readLine());
+
+    }
+    public void save(BufferedWriter out) throws IOException{
+        out.write(catID + "\n");
+        super.save(out);
+        out.write("" + breed + "\n");
+    }
+    @Override
+    public String family(){
+        return "cat";
+    }
+    @Override
+    public String breed(){
+        return breed.name();
+    }
     @Override
     public String toString(){
-        Cat cat = new Cat(CatBreed.BENGAL, "Delta", Gender.Male, 11);
-        String Name = cat.getName();
-        String Gender = cat.getGender();
-        String Age = cat.getAge();
-
-        return Name + " " + Age + " year old," + Gender + ", \n";
-    }
-
-
-    @Override
-    public String breed() {
-        String getBreed = breed.toString();
-        return getBreed;
-       
+        return super.toString() + " " + breed.name() + " cat)";
     }
     private CatBreed breed;
 }

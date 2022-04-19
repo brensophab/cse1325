@@ -1,37 +1,36 @@
 package shelter;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
 
 public class Dog extends Animal {
-    
-    
-
-
-    public Dog(DogBreed breed, String name, Gender gender,int age){
+    public static final String dogID = "Dog";
+    public Dog(DogBreed breed, String name, Gender gender, int age) {
         super(name, gender, age);
         this.breed = breed;
-        if(age<0){
-            throw new IllegalArgumentException("No negative age");
-        }
     }
-    
+    public Dog(BufferedReader in) throws IOException {
+        super(in);
+        this.breed = DogBreed.valueOf(in.readLine());
 
+    }
+    public void save(BufferedWriter out) throws IOException{
+        out.write(dogID + "\n");
+        super.save(out);
+        out.write("" + breed + "\n");
+    }
     @Override
-    public String toString(){
-        Dog dog = new Dog(DogBreed.HUSKY, "Alpha", Gender.Female, 4);
-        String Name = dog.getName();
-        String Gender = dog.getGender();
-        String Age = dog.getAge();
-
-        return Name + " " + Age + " year old," + Gender + ", \n";
+    public String family() {
+        return "dog";
     }
-
-
     @Override
     public String breed() {
-        String getBreed = breed.toString();
-        return getBreed;
-       
+        return breed.name();
+    }
+    @Override
+    public String toString() {
+        return super.toString() + " " + breed.name() + " dog)";
     }
     private DogBreed breed;
 }
-
