@@ -433,8 +433,8 @@ public class MainWin extends JFrame{
             data.setHorizontalAlignment(JLabel.LEFT);
             data.setVerticalAlignment(JLabel.TOP);
             String s = "Invalid Display" + displayView;
-            if(displayView == displayView.ANIMALS) s = shelter.toString();
-            if(displayView == displayView.CLIENTS) s = shelter.clientToString();
+            if(displayView == MainWin.DisplayView.ANIMALS) s = shelter.toString();
+            if(displayView == MainWin.DisplayView.CLIENTS) s = shelter.clientToString();
 
             data.setText("<html>"+shelter.toString()
             .replaceAll("<", "&lt;")

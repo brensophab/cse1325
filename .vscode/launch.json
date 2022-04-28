@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindMinHash",
+            "request": "launch",
+            "mainClass": "FindMinHash",
+            "projectName": "cse1325_d2a30131"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mass",
+            "request": "launch",
+            "mainClass": "Mass",
+            "projectName": "cse1325_d2a30131"
+        },
+        {
+            "type": "java",
             "name": "Launch Mass",
             "request": "launch",
             "mainClass": "P10.Mass",
