@@ -43,12 +43,237 @@ sys	0m0.289s
 
 
 YOUR Timing:
-Timings Invalidated: when bash script entered:
-Unable to load word list from {i}
-real   0m0.043s
-user   0m0.032s
-sys    0m0.004s
-repeated until end of loop
+Thread-0    (ID  12) searching               0 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m22.732s
+user	0m22.533s
+sys	0m0.096s
+
+Thread-0    (ID  12) searching               0 to     375,000,000
+Thread-1    (ID  13) searching     375,000,001 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m23.632s
+user	0m23.359s
+sys	0m0.120s
+
+Thread-0    (ID  12) searching               0 to     250,000,000
+Thread-2    (ID  14) searching     500,000,002 to     750,000,000
+Thread-1    (ID  13) searching     250,000,001 to     500,000,001
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m23.032s
+user	0m22.799s
+sys	0m0.086s
+
+Thread-0    (ID  12) searching               0 to     187,500,000
+Thread-2    (ID  14) searching     375,000,002 to     562,500,002
+Thread-1    (ID  13) searching     187,500,001 to     375,000,001
+Thread-3    (ID  15) searching     562,500,003 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m23.390s
+user	0m23.091s
+sys	0m0.119s
+
+Thread-0    (ID  12) searching               0 to     150,000,000
+Thread-2    (ID  14) searching     300,000,002 to     450,000,002
+Thread-1    (ID  13) searching     150,000,001 to     300,000,001
+Thread-3    (ID  15) searching     450,000,003 to     600,000,003
+Thread-4    (ID  16) searching     600,000,004 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m23.195s
+user	0m22.901s
+sys	0m0.095s
+
+Thread-0    (ID  12) searching               0 to     125,000,000
+Thread-2    (ID  14) searching     250,000,002 to     375,000,002
+Thread-1    (ID  13) searching     125,000,001 to     250,000,001
+Thread-3    (ID  15) searching     375,000,003 to     500,000,003
+Thread-4    (ID  16) searching     500,000,004 to     625,000,004
+Thread-5    (ID  17) searching     625,000,005 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m23.162s
+user	0m22.818s
+sys	0m0.153s
+
+Thread-0    (ID  12) searching               0 to     107,142,857
+Thread-2    (ID  14) searching     214,285,716 to     321,428,573
+Thread-1    (ID  13) searching     107,142,858 to     214,285,715
+Thread-3    (ID  15) searching     321,428,574 to     428,571,431
+Thread-4    (ID  16) searching     428,571,432 to     535,714,289
+Thread-5    (ID  17) searching     535,714,290 to     642,857,147
+Thread-6    (ID  18) searching     642,857,148 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m24.866s
+user	0m24.448s
+sys	0m0.172s
+
+Thread-0    (ID  12) searching               0 to      93,750,000
+Thread-2    (ID  14) searching     187,500,002 to     281,250,002
+Thread-1    (ID  13) searching      93,750,001 to     187,500,001
+Thread-3    (ID  15) searching     281,250,003 to     375,000,003
+Thread-4    (ID  16) searching     375,000,004 to     468,750,004
+Thread-7    (ID  19) searching     656,250,007 to     750,000,000
+Thread-5    (ID  17) searching     468,750,005 to     562,500,005
+Thread-6    (ID  18) searching     562,500,006 to     656,250,006
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m25.933s
+user	0m25.587s
+sys	0m0.128s
+
+Thread-0    (ID  12) searching               0 to      83,333,333
+Thread-2    (ID  14) searching     166,666,668 to     250,000,001
+Thread-1    (ID  13) searching      83,333,334 to     166,666,667
+Thread-3    (ID  15) searching     250,000,002 to     333,333,335
+Thread-4    (ID  16) searching     333,333,336 to     416,666,669
+Thread-5    (ID  17) searching     416,666,670 to     500,000,003
+Thread-6    (ID  18) searching     500,000,004 to     583,333,337
+Thread-8    (ID  20) searching     666,666,672 to     750,000,000
+Thread-7    (ID  19) searching     583,333,338 to     666,666,671
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m25.285s
+user	0m24.796s
+sys	0m0.136s
+
+Thread-0    (ID  12) searching               0 to      75,000,000
+Thread-2    (ID  14) searching     150,000,002 to     225,000,002
+Thread-1    (ID  13) searching      75,000,001 to     150,000,001
+Thread-3    (ID  15) searching     225,000,003 to     300,000,003
+Thread-4    (ID  16) searching     300,000,004 to     375,000,004
+Thread-5    (ID  17) searching     375,000,005 to     450,000,005
+Thread-6    (ID  18) searching     450,000,006 to     525,000,006
+Thread-7    (ID  19) searching     525,000,007 to     600,000,007
+Thread-9    (ID  21) searching     675,000,009 to     750,000,000
+Thread-8    (ID  20) searching     600,000,008 to     675,000,008
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m23.649s
+user	0m23.183s
+sys	0m0.174s
+
+Thread-0    (ID  12) searching               0 to      68,181,818
+Thread-3    (ID  15) searching     204,545,457 to     272,727,275
+Thread-2    (ID  14) searching     136,363,638 to     204,545,456
+Thread-1    (ID  13) searching      68,181,819 to     136,363,637
+Thread-4    (ID  16) searching     272,727,276 to     340,909,094
+Thread-10   (ID  22) searching     681,818,190 to     750,000,000
+Thread-5    (ID  17) searching     340,909,095 to     409,090,913
+Thread-7    (ID  19) searching     477,272,733 to     545,454,551
+Thread-9    (ID  21) searching     613,636,371 to     681,818,189
+Thread-8    (ID  20) searching     545,454,552 to     613,636,370
+Thread-6    (ID  18) searching     409,090,914 to     477,272,732
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m24.782s
+user	0m24.429s
+sys	0m0.118s
+
+Thread-0    (ID  12) searching               0 to      62,500,000
+Thread-2    (ID  14) searching     125,000,002 to     187,500,002
+Thread-1    (ID  13) searching      62,500,001 to     125,000,001
+Thread-3    (ID  15) searching     187,500,003 to     250,000,003
+Thread-4    (ID  16) searching     250,000,004 to     312,500,004
+Thread-11   (ID  23) searching     687,500,011 to     750,000,000
+Thread-5    (ID  17) searching     312,500,005 to     375,000,005
+Thread-6    (ID  18) searching     375,000,006 to     437,500,006
+Thread-7    (ID  19) searching     437,500,007 to     500,000,007
+Thread-8    (ID  20) searching     500,000,008 to     562,500,008
+Thread-10   (ID  22) searching     625,000,010 to     687,500,010
+Thread-9    (ID  21) searching     562,500,009 to     625,000,009
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m25.062s
+user	0m24.586s
+sys	0m0.209s
+
+Thread-0    (ID  12) searching               0 to      57,692,307
+Thread-3    (ID  15) searching     173,076,924 to     230,769,231
+Thread-2    (ID  14) searching     115,384,616 to     173,076,923
+Thread-1    (ID  13) searching      57,692,308 to     115,384,615
+Thread-4    (ID  16) searching     230,769,232 to     288,461,539
+Thread-5    (ID  17) searching     288,461,540 to     346,153,847
+Thread-11   (ID  23) searching     634,615,388 to     692,307,695
+Thread-6    (ID  18) searching     346,153,848 to     403,846,155
+Thread-10   (ID  22) searching     576,923,080 to     634,615,387
+Thread-9    (ID  21) searching     519,230,772 to     576,923,079
+Thread-8    (ID  20) searching     461,538,464 to     519,230,771
+Thread-7    (ID  19) searching     403,846,156 to     461,538,463
+Thread-12   (ID  24) searching     692,307,696 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m25.175s
+user	0m24.801s
+sys	0m0.130s
+
+Thread-0    (ID  12) searching               0 to      53,571,428
+Thread-2    (ID  14) searching     107,142,858 to     160,714,286
+Thread-1    (ID  13) searching      53,571,429 to     107,142,857
+Thread-3    (ID  15) searching     160,714,287 to     214,285,715
+Thread-4    (ID  16) searching     214,285,716 to     267,857,144
+Thread-5    (ID  17) searching     267,857,145 to     321,428,573
+Thread-12   (ID  24) searching     642,857,148 to     696,428,576
+Thread-6    (ID  18) searching     321,428,574 to     375,000,002
+Thread-11   (ID  23) searching     589,285,719 to     642,857,147
+Thread-10   (ID  22) searching     535,714,290 to     589,285,718
+Thread-9    (ID  21) searching     482,142,861 to     535,714,289
+Thread-8    (ID  20) searching     428,571,432 to     482,142,860
+Thread-7    (ID  19) searching     375,000,003 to     428,571,431
+Thread-13   (ID  25) searching     696,428,577 to     750,000,000
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m24.863s
+user	0m24.493s
+sys	0m0.137s
+
+Thread-0    (ID  12) searching               0 to      50,000,000
+Thread-2    (ID  14) searching     100,000,002 to     150,000,002
+Thread-1    (ID  13) searching      50,000,001 to     100,000,001
+Thread-3    (ID  15) searching     150,000,003 to     200,000,003
+Thread-4    (ID  16) searching     200,000,004 to     250,000,004
+Thread-14   (ID  26) searching     700,000,014 to     750,000,000
+Thread-5    (ID  17) searching     250,000,005 to     300,000,005
+Thread-6    (ID  18) searching     300,000,006 to     350,000,006
+Thread-13   (ID  25) searching     650,000,013 to     700,000,013
+Thread-12   (ID  24) searching     600,000,012 to     650,000,012
+Thread-11   (ID  23) searching     550,000,011 to     600,000,011
+Thread-10   (ID  22) searching     500,000,010 to     550,000,010
+Thread-9    (ID  21) searching     450,000,009 to     500,000,009
+Thread-8    (ID  20) searching     400,000,008 to     450,000,008
+Thread-7    (ID  19) searching     350,000,007 to     400,000,007
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m25.741s
+user	0m25.235s
+sys	0m0.187s
+
+Thread-0    (ID  12) searching               0 to      46,875,000
+Thread-3    (ID  15) searching     140,625,003 to     187,500,003
+Thread-2    (ID  14) searching      93,750,002 to     140,625,002
+Thread-1    (ID  13) searching      46,875,001 to      93,750,001
+Thread-4    (ID  16) searching     187,500,004 to     234,375,004
+Thread-15   (ID  27) searching     703,125,015 to     750,000,000
+Thread-5    (ID  17) searching     234,375,005 to     281,250,005
+Thread-6    (ID  18) searching     281,250,006 to     328,125,006
+Thread-14   (ID  26) searching     656,250,014 to     703,125,014
+Thread-13   (ID  25) searching     609,375,013 to     656,250,013
+Thread-12   (ID  24) searching     562,500,012 to     609,375,012
+Thread-11   (ID  23) searching     515,625,011 to     562,500,011
+Thread-10   (ID  22) searching     468,750,010 to     515,625,010
+Thread-9    (ID  21) searching     421,875,009 to     468,750,009
+Thread-8    (ID  20) searching     375,000,008 to     421,875,008
+Thread-7    (ID  19) searching     328,125,007 to     375,000,007
+Best word "NETWORKING'S DEBBIE" has hashCode 4
+
+real	0m25.104s
+user	0m24.641s
+sys	0m0.178s
 
 
 

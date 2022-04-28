@@ -75,7 +75,7 @@ public class FindMinHash {
 
         // Include a program argument here for number of threads (numThreads)
         //   to use.
-        final int numThreads = (args.length > 1) ? Integer.parseInt(args[1]) :1;
+        final int numThreads = (args.length > 1) ? Integer.parseInt(args[1]) :16;
         
         FindMinHash f = null;
         try {
