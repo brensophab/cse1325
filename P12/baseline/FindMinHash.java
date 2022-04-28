@@ -75,7 +75,7 @@ public class FindMinHash {
 
         // Include a program argument here for number of threads (numThreads)
         //   to use.
-        final int numThreads = (args.length > 1) ? Integer.parseInt(args[1]) : 1;
+        final int numThreads = (args.length > 1) ? Integer.parseInt(args[1]) :1;
         
         FindMinHash f = null;
         try {
@@ -100,7 +100,10 @@ public class FindMinHash {
             i = start + step + 1;
 
         }
-        for(Thread t : threads)try {t.join();} catch(InterruptedException e) {}
+        for(Thread t : threads)try
+         {
+             t.join();
+         } catch(InterruptedException e) {}
         
         System.out.println("Best word \"" + findMinHash.bestWord.word + "\" has hashCode " 
                          + String.format("%,d", findMinHash.bestWord.hashCode()));
